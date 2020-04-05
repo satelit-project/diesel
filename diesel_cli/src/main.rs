@@ -14,6 +14,9 @@
 )]
 #![cfg_attr(test, allow(clippy::result_unwrap_used))]
 
+// musl
+extern crate openssl;
+
 extern crate chrono;
 #[macro_use]
 extern crate clap;
